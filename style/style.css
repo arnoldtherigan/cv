@@ -1,0 +1,57 @@
+
+
+/* MENU */
+.img-menu{
+	width: 30%;
+}
+.menu{
+	background: #f7f1e3;
+}
+.menu-warna a{
+	color: #b33939!important;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: Comic Sans MS;
+}
+/* END MENU */
+
+/* BANNER */
+.banner{
+	background: #f7f1e3;
+}
+.banner-img img{
+	width: 70%;
+}
+/* END BANNER */
+
+/* PROFILE */
+.profile-img img{
+	width: 15%;
+}
+.profile h3{
+	font-family: Comic Sans MS;
+	color: #b33939;
+}
+.profile p{
+	font-family: Comic Sans MS;
+}
+.profile-question img{
+	border-radius: 50%;
+	width:50%;
+}
+.profile hr{
+	border-top: 8px dotted grey;
+	width:8%;
+	height: 40px;
+	margin-top: 40px;
+}
+/* END PROFILE */
+/* MEDIA */
+
+@media (max-width: 765px) {
+.pt-none{padding-top: 0!important}
+.banner-img img{width: 90%;}
+.profile-img img{width: 40%;}
+.profile hr{
+	border-top: 8px dotted grey; width:20%; height: 40px; margin-top: 40px;}
+ }
