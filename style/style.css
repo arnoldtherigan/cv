@@ -46,15 +46,15 @@
 .content{background: url(../img/banner2.gif);}
 .content-blog{background: #333333; font-family: Comic Sans MS; }
 .content-blog h1{font-size: 4rem;}
-.content-blog p{font-size: 1.2rem;}
-.content-button{background: #333333; border: 0;}
+.content-blog p{font-size: 1.2rem; color: #fff;}
+.content-button{background: #fff; border: 0; color: #333333;}
 .garis hr{
 	border-top: 8px dotted white;
 	width:8%;
 	height: 40px;
 	margin-top: 40px;
 }
-
+.blog-background{background: #333333; border-color: white;}
 /*END BLOG*/
 
 /*FOOTER*/
@@ -98,6 +98,7 @@ background: #b33939;
 .profile hr{border-top: 8px dotted grey; width:20%; height: 40px; margin-top: 40px;}
 .slide1{margin-right: 0!important; margin-left: 0!important; margin-bottom: 20px!important; margin-top: 20px!important;}
 .slider img{width: 50%;}
+.content-blog img{width: 200px;}
 }
 
 @media (min-width: 766px) and (max-width: 1010px) { 
