@@ -41,6 +41,22 @@
 }
 /* END PROFILE */
 
+/*BLOG*/
+
+.content{background: url(../img/banner2.gif);}
+.content-blog{background: #333333; font-family: Comic Sans MS; }
+.content-blog h1{font-size: 4rem;}
+.content-blog p{font-size: 1.2rem;}
+.content-button{background: #333333; border: 0;}
+.garis hr{
+	border-top: 8px dotted white;
+	width:8%;
+	height: 40px;
+	margin-top: 40px;
+}
+
+/*END BLOG*/
+
 /*FOOTER*/
 .footer{
 	background: #f7f1e3;
@@ -61,7 +77,6 @@
 
 .slider h4{color: #b33939; font-family: Comic Sans MS;}
 .slider img{width: 250px;}
-
 /* The colour of the indicators */
 .blog .carousel-indicators li {
     background: #a3a3a3;
